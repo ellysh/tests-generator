@@ -37,7 +37,7 @@ def write_result(filename):
 
 
 def main():
-    read_template('template.c')
+    read_template('template')
     append_params()
     write_result('result.c')
 
