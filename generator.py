@@ -2,7 +2,6 @@
 
 import sys
 
-#FIXME: File with parameters is the script's argument
 import params
 
 
@@ -37,8 +36,11 @@ def write_result(filename):
 
 
 def main():
-    read_template('template')
+    #FIXME: The template file must be script's argument
+    read_template('templates/bug/overflow')
     append_params()
+
+    #FIXME: The output file must be script's argument
     write_result('result.c')
 
 
