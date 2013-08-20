@@ -2,6 +2,7 @@
 
 import sys
 
+#FIXME: File with parameters is the script's argument
 import parameters as param
 
 
@@ -20,22 +21,12 @@ def append_params():
 
     for line in TEMPLATE:
 
-        #FIXME: Avoid this hard coded tokens
+        if '@>' in line:
+            variable = line.replace('@>', '')
+            variable = variable.strip()
 
-        if '{GLOBAL_VARIABLE}' in line:
-            line = param.GLOBAL_VARIABLE
-
-        if '{LOCAL_VARIABLE}' in line:
-            line = param.LOCAL_VARIABLE
-
-        if '{OBJECT_ALLOCATION}' in line:
-            line = param.OBJECT_ALLOCATION
-
-        if '{OBJECT_ACCESS}' in line:
-            line = param.OBJECT_ACCESS
-
-        if '{OBJECT_FREE}' in line:
-            line = param.OBJECT_FREE
+            if variable in param.__dict__:
+                line = eval('param.' + variable)
 
         RESULT.append(line)
 
