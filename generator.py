@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import sys
-
 import params
 
+
+TEMPLATES_DIR = 'templates/bug/'
 
 TEMPLATE = []
 RESULT = []
@@ -35,14 +36,19 @@ def write_result(filename):
         out_file.writelines(RESULT)
 
 
-def main():
-    #FIXME: The template file must be script's argument
-    read_template('templates/bug/overflow')
+def main(template_file, out_file):
+    read_template(template_file)
     append_params()
 
-    #FIXME: The output file must be script's argument
-    write_result('result.c')
+    write_result(out_file)
 
 
 if __name__ == '__main__':
-    main()
+    if len(sys.argv) >= 3:
+        template_file = TEMPLATES_DIR + sys.argv[1]
+        out_file = sys.argv[2]
+    else:
+        print('Usage: generator.py <bug_template_file> <out_file>')
+        exit(1)
+
+    main(template_file, out_file)
