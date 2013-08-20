@@ -3,7 +3,7 @@
 import sys
 
 #FIXME: File with parameters is the script's argument
-import parameters as param
+import params
 
 
 TEMPLATE = []
@@ -25,8 +25,8 @@ def append_params():
             variable = line.replace('@>', '')
             variable = variable.strip()
 
-            if variable in param.__dict__:
-                line = eval('param.' + variable)
+            if variable in params.__dict__:
+                line = eval('params.' + variable)
 
         RESULT.append(line)
 
