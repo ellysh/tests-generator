@@ -1,8 +1,16 @@
 #!/bin/bash
 
+if [ "$1" == "" ]
+then
+    echo "Usage: `basename $0` <template code>"
+    exit 1
+fi
+
+TEMPLATES_CODE="$1"
+
 ROOT_DIR=".."
 TESTS_DIR="$ROOT_DIR/tests"
-TEMPLATES_DIR="$ROOT_DIR/templates"
+TEMPLATES_DIR="$ROOT_DIR/templates/$TEMPLATES_CODE"
 BUG_FILES="$TEMPLATES_DIR/bug/*"
 ACCESS_FILES="$TEMPLATES_DIR/access/*"
 MEMORY_FILES="$TEMPLATES_DIR/memory/*"
@@ -15,6 +23,7 @@ BUG=""
 MEMORY=""
 ACCESS=""
 OBJECT=""
+
 
 copy_template()
 {
