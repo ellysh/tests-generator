@@ -1,2 +1,2 @@
-LOCAL_VARIABLE='const char* str = "test string";\nchar buf[5];'
+LOCAL_VARIABLE='\tconst char* str = "test string";'
 

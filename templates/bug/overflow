@@ -5,13 +5,15 @@
 
 int main( int argc, char* argv[] )
 {
-    @>LOCAL_VARIABLE
+@>LOCAL_VARIABLE
 
-    @>OBJECT_ALLOCATION
+@>OBJECT_VARIABLE
 
-    @>OBJECT_ACCESS
+@>OBJECT_ALLOCATION
 
-    @>OBJECT_FREE
+@>OBJECT_ACCESS
+
+@>OBJECT_FREE
 
     return 0;
 }
