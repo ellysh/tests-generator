@@ -4,8 +4,6 @@ import sys
 import params
 
 
-TEMPLATES_DIR = 'templates/bug/'
-
 TEMPLATE = []
 RESULT = []
 
@@ -45,7 +43,7 @@ def main(template_file, out_file):
 
 if __name__ == '__main__':
     if len(sys.argv) >= 3:
-        template_file = TEMPLATES_DIR + sys.argv[1]
+        template_file = sys.argv[1]
         out_file = sys.argv[2]
     else:
         print('Usage: generator.py <bug_template_file> <out_file>')
