@@ -33,7 +33,15 @@ create_param_file()
 
 get_out_filename()
 {
-    echo "$(basename "$BUG")"_"$(basename "$ACCESS")"_"$(basename "$MEMORY")"_"$(basename "$OBJECT").c"
+    BUG_NAME=$(basename "$BUG")
+    ACCESS_NAME=$(basename "$ACCESS")
+    MEMORY_NAME=$(basename "$MEMORY")
+    OBJECT_NAME=$(basename "$OBJECT")
+
+    FILE_CODE="${BUG_NAME%_*}${ACCESS_NAME%_*}${MEMORY_NAME%_*}${OBJECT_NAME%_*}"
+    FILE_TEXT="${BUG_NAME#*_}_${ACCESS_NAME#*_}_${MEMORY_NAME#*_}_${OBJECT_NAME#*_}"
+
+    echo $FILE_CODE"_"$FILE_TEXT".c"
 }
 
 generate_test()
