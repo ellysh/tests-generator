@@ -1,2 +1,2 @@
-OBJECT_ACCESS='\tmemcpy(buf, str, strlen(str));'
+OBJECT_ACCESS='\tstrcpy(buf, str);'
 

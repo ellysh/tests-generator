@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\tmemcpy(buf, str, 5);\n\tint i;\n\tchar* target = buf;\n\tconst char* source = str;\n\tfor (i = 0; i <= strlen(str); i++)\n\t{\n\t\tif (*target != *source)\n\t\t\treturn 1;\n\t\ttarget++;\n\t\tsource++;\n\t}'
+

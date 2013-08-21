@@ -1,2 +1,2 @@
-OBJECT_ACCESS='\tmemcmp(buf, str, strlen(str));'
+OBJECT_ACCESS='\tmemcpy(buf, str, 5);\tstrcmp(buf, str);'
 
