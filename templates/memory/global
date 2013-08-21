@@ -1,0 +1,7 @@
+GLOBAL_VARIABLE='char* buf;'
+
+OBJECT_VARIABLE=''
+
+OBJECT_ALLOCATION='\tbuf = (char*)malloc(5);'
+
+OBJECT_FREE='\tfree(buf);'

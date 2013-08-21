@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\tmemcmp(buf, str, strlen(str));'
+
