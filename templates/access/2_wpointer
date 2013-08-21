@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\tint i;\n\tchar* target = buf;\n\tconst char* source = str;\n\tfor (i = 0; i <= strlen(str); i++)\n\t{\n\t\t*target = *source;\n\t\ttarget++;\n\t\tsource++;\n\t}'
+
