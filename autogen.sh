@@ -1,5 +1,6 @@
 #!/bin/bash
 
+TESTS_DIR="tests"
 TEMPLATES_DIR="templates"
 BUG_FILES="$TEMPLATES_DIR/bug/*"
 ACCESS_FILES="$TEMPLATES_DIR/access/*"
@@ -20,14 +21,14 @@ do
             do
                 OUT_FILE="$(basename "$BUG")"_"$(basename "$ACCESS")"_"$(basename "$MEMORY")"_"$(basename "$OBJECT").c"
 
-                cat $BUG > $TEMPLATE_FILE
+                cat "$BUG" > "$TEMPLATE_FILE"
 
-                cat $MEMORY > $PARAM_FILE
-                cat $ACCESS >> $PARAM_FILE
-                cat $OBJECT >> $PARAM_FILE
+                cat "$MEMORY" > "$PARAM_FILE"
+                cat "$ACCESS" >> "$PARAM_FILE"
+                cat "$OBJECT" >> "$PARAM_FILE"
 
                 rm $PARAM_FILE"c"
-                ./generator.py $TEMPLATE_FILE $OUT_FILE
+                ./generator.py "$TEMPLATE_FILE" "$TESTS_DIR/$OUT_FILE"
             done
         done
     done
