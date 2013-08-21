@@ -1,7 +1,8 @@
 #!/bin/bash
 
-TESTS_DIR="tests"
-TEMPLATES_DIR="templates"
+ROOT_DIR=".."
+TESTS_DIR="$ROOT_DIR/tests"
+TEMPLATES_DIR="$ROOT_DIR/templates"
 BUG_FILES="$TEMPLATES_DIR/bug/*"
 ACCESS_FILES="$TEMPLATES_DIR/access/*"
 MEMORY_FILES="$TEMPLATES_DIR/memory/*"
