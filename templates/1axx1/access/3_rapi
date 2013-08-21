@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\tmemcpy(buf, array, 1);\tmemcmp(buf, array, 2);'
+

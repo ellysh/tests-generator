@@ -1,0 +1,8 @@
+GLOBAL_VARIABLE=''
+
+OBJECT_VARIABLE='\tint32_t* buf;'
+
+OBJECT_ALLOCATION='\tbuf = (int32_t*)malloc(sizeof(int32_t));'
+
+OBJECT_FREE='\tfree(buf);'
+
