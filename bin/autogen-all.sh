@@ -8,3 +8,6 @@
 ./autogen.sh 1axx6
 ./autogen.sh 1axx7
 ./autogen.sh 1axx8
+
+./autogen.sh 1bxx1
+./autogen.sh 1bxx2

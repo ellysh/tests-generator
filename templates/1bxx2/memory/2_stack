@@ -1,0 +1,8 @@
+GLOBAL_VARIABLE=''
+
+OBJECT_VARIABLE='\tint data[5];\n\tint* target = &data;'
+
+OBJECT_ALLOCATION=''
+
+OBJECT_FREE=''
+
