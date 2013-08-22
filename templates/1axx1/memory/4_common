@@ -1,6 +1,6 @@
-GLOBAL_VARIABLE='int32_t buf;'
+GLOBAL_VARIABLE='int data;'
 
-OBJECT_VARIABLE=''
+OBJECT_VARIABLE='\tint* target = &data;'
 
 OBJECT_ALLOCATION=''
 

@@ -1,7 +1,7 @@
-GLOBAL_VARIABLE='int32_t* buf;'
+GLOBAL_VARIABLE='int* target;'
 
 OBJECT_VARIABLE=''
 
-OBJECT_ALLOCATION='\tbuf = (int32_t*)malloc(sizeof(int32_t));'
+OBJECT_ALLOCATION='\ttarget = (int*)malloc(sizeof(int));'
 
-OBJECT_FREE='\tfree(buf);'
+OBJECT_FREE='\tfree(target);'
