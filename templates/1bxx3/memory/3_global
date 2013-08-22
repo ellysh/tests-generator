@@ -1,0 +1,8 @@
+GLOBAL_VARIABLE='Test1* target;'
+
+OBJECT_VARIABLE=''
+
+OBJECT_ALLOCATION='\ttarget = (Test1*)malloc(sizeof(Test1));'
+
+OBJECT_FREE='\tfree(target);'
+
