@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\ttarget->b = source.a;\n\tint i;\n\tif (target->b != source.b)\n\t\treturn 1;'
+

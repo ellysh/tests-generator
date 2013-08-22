@@ -1,0 +1,4 @@
+TYPES_DEFINITION='#pragma pack(push)\n#pragma pack(1)\n\ntypedef struct {\n\tint a : 4;\n\tint b : 4;\n} Test1;\n\ntypedef struct {\n\tint a : 4;\n\tint b : 6;\n} Test2;'
+
+LOCAL_VARIABLE='\tTest2 source = {.a = 15, .b = 63};'
+
