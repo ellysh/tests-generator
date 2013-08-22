@@ -1,0 +1,8 @@
+GLOBAL_VARIABLE=''
+
+OBJECT_VARIABLE='\tint* target;'
+
+OBJECT_ALLOCATION='\ttarget = (int*)malloc(sizeof(int));'
+
+OBJECT_FREE='\tfree(target);'
+
