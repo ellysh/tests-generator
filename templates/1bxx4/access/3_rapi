@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\tmemcpy(&target->a, &source.a, sizeof(target->a));\n\tshort* trg_ptr = &target->a;\n\ttrg_ptr--;\n\tmemcmp(trg_ptr, &source.a, sizeof(source.a));'
+
