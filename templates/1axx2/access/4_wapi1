@@ -1,2 +1,2 @@
-OBJECT_ACCESS='\tmemcpy(buf, array, sizeof(array));'
+OBJECT_ACCESS='\tmemcpy(target, source, sizeof(source));'
 
