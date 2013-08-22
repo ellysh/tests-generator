@@ -1,2 +1,2 @@
-OBJECT_ACCESS='\tint i;\n\tint32_t* target = buf;\n\tint32_t* source = array;\n\tfor (i = 0; i < 2; i++)\n\t{\n\t\t*target = *source;\n\t\ttarget++;\n\t\tsource++;\n\t}'
+OBJECT_ACCESS='\tint i;\n\tint32_t* target = buf;\n\tint32_t* source = array;\n\tfor (i = 0; i < sizeof(array); i++)\n\t{\n\t\t*target = *source;\n\t\ttarget++;\n\t\tsource++;\n\t}'
 
