@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\tint i;\n\tshort* trg_ptr = &target->a;\n\tshort* src_ptr = &source.a;\n\tfor (i = 0; i < sizeof(source.a); i++)\n\t{\n\t\t*trg_ptr = *src_ptr;\n\t\ttrg_ptr++;\n\t\tsrc_ptr++;\n\t}'
+

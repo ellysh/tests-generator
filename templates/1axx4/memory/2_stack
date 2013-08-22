@@ -1,0 +1,8 @@
+GLOBAL_VARIABLE=''
+
+OBJECT_VARIABLE='\tTest1 data;\n\tTest1* target = &data;'
+
+OBJECT_ALLOCATION=''
+
+OBJECT_FREE=''
+
