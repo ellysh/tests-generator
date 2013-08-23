@@ -19,3 +19,4 @@
 ./autogen.sh 1bxx8
 
 ./autogen.sh 1cxx3
+./autogen.sh 1cxx4
