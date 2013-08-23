@@ -15,3 +15,4 @@
 ./autogen.sh 1bxx4
 ./autogen.sh 1bxx5
 ./autogen.sh 1bxx6
+./autogen.sh 1bxx7
