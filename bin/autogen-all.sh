@@ -16,3 +16,6 @@
 ./autogen.sh 1bxx5
 ./autogen.sh 1bxx6
 ./autogen.sh 1bxx7
+./autogen.sh 1bxx8
+
+./autogen.sh 1cxx3
