@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\ttarget->a = source.b;'
+
