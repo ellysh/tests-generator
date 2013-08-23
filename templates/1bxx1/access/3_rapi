@@ -1,2 +1,2 @@
-OBJECT_ACCESS='\tmemcpy(target, source, sizeof(*target));\tmemcmp(--target, source, sizeof(source));'
+OBJECT_ACCESS='\tmemcpy(target, source, sizeof(*target));\n\tmemcmp(--target, source, sizeof(source));'
 
