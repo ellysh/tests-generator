@@ -1,0 +1,8 @@
+GLOBAL_VARIABLE='char data[5];'
+
+OBJECT_VARIABLE='\tchar* target = &data;'
+
+OBJECT_ALLOCATION=''
+
+OBJECT_FREE=''
+

@@ -1,0 +1,2 @@
+OBJECT_ACCESS='\tstrcpy(--target, source);'
+
