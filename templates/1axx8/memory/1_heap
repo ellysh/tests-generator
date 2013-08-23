@@ -1,8 +1,8 @@
 GLOBAL_VARIABLE=''
 
-OBJECT_VARIABLE='\tchar* buf;'
+OBJECT_VARIABLE='\tchar* target;'
 
-OBJECT_ALLOCATION='\tbuf = (char*)malloc(5);'
+OBJECT_ALLOCATION='\ttarget = (char*)malloc(5);'
 
-OBJECT_FREE='\tfree(buf);'
+OBJECT_FREE='\tfree(target);'
 

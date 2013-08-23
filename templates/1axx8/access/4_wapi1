@@ -1,2 +1,2 @@
-OBJECT_ACCESS='\tstrcpy(buf, str);'
+OBJECT_ACCESS='\tstrcpy(target, source);'
 

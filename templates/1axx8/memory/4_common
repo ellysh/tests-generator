@@ -1,6 +1,6 @@
-GLOBAL_VARIABLE='char buf[5];'
+GLOBAL_VARIABLE='char data[5];'
 
-OBJECT_VARIABLE=''
+OBJECT_VARIABLE='\tchar* target = &data;'
 
 OBJECT_ALLOCATION=''
 
