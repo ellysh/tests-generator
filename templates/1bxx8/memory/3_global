@@ -1,11 +1,12 @@
 GLOBAL_VARIABLE="""
-char* target;"""
+char data[5] = {'a', 'b', 'c', 'd', '\0'};"""
 
 OBJECT_VARIABLE="""
-"""
+    char* target = &data;"""
 
 OBJECT_ALLOCATION="""
-    target = (char*)malloc(5);"""
+"""
 
 OBJECT_FREE="""
-    free(target);"""
+"""
+
