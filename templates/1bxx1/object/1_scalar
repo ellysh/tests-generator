@@ -1,2 +1,3 @@
-LOCAL_VARIABLE='\tint source[2] = {1, 2};'
+LOCAL_VARIABLE="""
+    int source[2] = {1, 2};"""
 

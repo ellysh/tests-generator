@@ -1,4 +1,17 @@
-TYPES_DEFINITION='#pragma pack(push)\n#pragma pack(1)\n\ntypedef struct {\n\tint a : 4;\n\tint b : 4;\n} Test1;\n\ntypedef struct {\n\tint a : 4;\n\tint b : 6;\n} Test2;'
+TYPES_DEFINITION="""
+#pragma pack(push)
+#pragma pack(1)
 
-LOCAL_VARIABLE='\tTest2 source = {.a = 15, .b = 63};'
+typedef struct {
+    int a : 4;
+    int b : 4;
+} Test1;
+
+typedef struct {
+    int a : 4;
+    int b : 6;
+} Test2;"""
+
+LOCAL_VARIABLE="""
+    Test2 source = {.a = 15, .b = 63};"""
 

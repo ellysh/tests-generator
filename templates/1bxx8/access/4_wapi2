@@ -1,2 +1,4 @@
-OBJECT_ACCESS='\ttarget--;\n\tstrcpy(&target, source);'
+OBJECT_ACCESS="""
+    target--;
+    strcpy(&target, source);"""
 

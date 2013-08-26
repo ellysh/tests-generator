@@ -1,2 +1,3 @@
-OBJECT_ACCESS='\ttarget->b = source.b;'
+OBJECT_ACCESS="""
+    target->b = source.b;"""
 

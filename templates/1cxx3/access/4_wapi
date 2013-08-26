@@ -1,2 +1,3 @@
-OBJECT_ACCESS='\tmemcpy(&target->a, &source.a, sizeof(source.a));'
+OBJECT_ACCESS="""
+    memcpy(&target->a, &source.a, sizeof(source.a));"""
 

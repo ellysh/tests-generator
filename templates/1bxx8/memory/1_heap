@@ -1,8 +1,12 @@
-GLOBAL_VARIABLE=''
+GLOBAL_VARIABLE="""
+"""
 
-OBJECT_VARIABLE='\tchar* target;'
+OBJECT_VARIABLE="""
+    char* target;"""
 
-OBJECT_ALLOCATION='\ttarget = (char*)malloc(5);'
+OBJECT_ALLOCATION="""
+    target = (char*)malloc(5);"""
 
-OBJECT_FREE='\tfree(target);'
+OBJECT_FREE="""
+    free(target);"""
 

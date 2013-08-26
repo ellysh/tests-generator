@@ -1,7 +1,11 @@
-GLOBAL_VARIABLE='int* target;'
+GLOBAL_VARIABLE="""
+int* target;"""
 
-OBJECT_VARIABLE=''
+OBJECT_VARIABLE="""
+"""
 
-OBJECT_ALLOCATION='\ttarget = (int*)malloc(sizeof(int));'
+OBJECT_ALLOCATION="""
+    target = (int*)malloc(sizeof(int));"""
 
-OBJECT_FREE='\tfree(target);'
+OBJECT_FREE="""
+    free(target);"""

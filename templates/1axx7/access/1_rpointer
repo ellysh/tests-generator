@@ -1,2 +1,6 @@
-OBJECT_ACCESS='\ttarget->b = source.a;\n\tint i;\n\tif (target->b != source.b)\n\t\treturn 1;'
+OBJECT_ACCESS="""
+    target->b = source.a;
+    int i;
+    if (target->b != source.b)
+        return 1;"""
 

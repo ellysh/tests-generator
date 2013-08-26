@@ -1,8 +1,13 @@
-GLOBAL_VARIABLE=''
+GLOBAL_VARIABLE="""
+"""
 
-OBJECT_VARIABLE='\tTest1 data;\n\tTest1* target = &data;'
+OBJECT_VARIABLE="""
+    Test1 data;
+    Test1* target = &data;"""
 
-OBJECT_ALLOCATION=''
+OBJECT_ALLOCATION="""
+"""
 
-OBJECT_FREE=''
+OBJECT_FREE="""
+"""
 

@@ -1,2 +1,4 @@
-OBJECT_ACCESS='\tmemcpy(target, source, 5);\n\tstrcmp(--target, source);'
+OBJECT_ACCESS="""
+    memcpy(target, source, 5);
+    strcmp(--target, source);"""
 

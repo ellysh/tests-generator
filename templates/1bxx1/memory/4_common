@@ -1,8 +1,12 @@
-GLOBAL_VARIABLE='int data;'
+GLOBAL_VARIABLE="""
+int data;"""
 
-OBJECT_VARIABLE='\tint* target = &data;'
+OBJECT_VARIABLE="""
+    int* target = &data;"""
 
-OBJECT_ALLOCATION=''
+OBJECT_ALLOCATION="""
+"""
 
-OBJECT_FREE=''
+OBJECT_FREE="""
+"""
 

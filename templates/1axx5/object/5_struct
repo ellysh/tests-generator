@@ -1,4 +1,12 @@
-TYPES_DEFINITION='typedef struct {\n\tchar a;\n} Test1;\n\ntypedef struct {\n\tchar a[10];\n} Test2;'
+TYPES_DEFINITION="""
+typedef struct {
+    char a;
+} Test1;
 
-LOCAL_VARIABLE='\tTest2 source = {.a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}};'
+typedef struct {
+    char a[10];
+} Test2;"""
+
+LOCAL_VARIABLE="""
+    Test2 source = {.a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}};"""
 

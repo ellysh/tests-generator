@@ -1,2 +1,11 @@
-OBJECT_ACCESS='\tint i;\n\tint* trg_ptr = target;\n\tint* src_ptr = &source;\n\tfor (i = 0; i < 10; i++)\n\t{\n\t\t*trg_ptr = *src_ptr;\n\t\ttrg_ptr++;\n\t\tsrc_ptr++;\n\t}'
+OBJECT_ACCESS="""
+    int i;
+    int* trg_ptr = target;
+    int* src_ptr = &source;
+    for (i = 0; i < 10; i++)
+    {
+        *trg_ptr = *src_ptr;
+        trg_ptr++;
+        src_ptr++;
+    }"""
 

@@ -1,2 +1,13 @@
-OBJECT_ACCESS='\tmemcpy(target, source, 5 * sizeof(*target));\n\tint i;\n\tint* trg_ptr = target;\n\tint* src_ptr = &source;\n\tfor (i = 0; i < 10; i++)\n\t{\n\t\tif (*trg_ptr != *src_ptr)\n\t\t\treturn 1;\n\t\ttrg_ptr++;\n\t\tsrc_ptr++;\n\t}'
+OBJECT_ACCESS="""
+    memcpy(target, source, 5 * sizeof(*target));
+    int i;
+    int* trg_ptr = target;
+    int* src_ptr = &source;
+    for (i = 0; i < 10; i++)
+    {
+        if (*trg_ptr != *src_ptr)
+            return 1;
+        trg_ptr++;
+        src_ptr++;
+    }"""
 

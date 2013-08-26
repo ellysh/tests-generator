@@ -1,2 +1,6 @@
-OBJECT_ACCESS='\tmemcpy(&target->a, &source.a, sizeof(target->a));\n\tchar* trg_ptr = &target->a;\n\ttrg_ptr--;\n\tmemcmp(trg_ptr, &source.a, sizeof(source.a));'
+OBJECT_ACCESS="""
+    memcpy(&target->a, &source.a, sizeof(target->a));
+    char* trg_ptr = &target->a;
+    trg_ptr--;
+    memcmp(trg_ptr, &source.a, sizeof(source.a));"""
 

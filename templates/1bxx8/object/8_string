@@ -1,2 +1,3 @@
-LOCAL_VARIABLE='\tconst char* source = "test string";'
+LOCAL_VARIABLE="""
+    const char* source = "test string";"""
 
