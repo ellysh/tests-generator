@@ -1,8 +1,8 @@
 OBJECT_ACCESS="""
     int i;
-    short* trg_ptr = &target->a;
+    volatile short* trg_ptr = &target->a;
     trg_ptr--;
-    short* src_ptr = &source.a;
+    volatile short* src_ptr = &source.a;
     for (i = 0; i < sizeof(source.a); i++)
     {
         *trg_ptr = *src_ptr;

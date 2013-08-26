@@ -1,8 +1,8 @@
 OBJECT_ACCESS="""
     memcpy(target, source, 5);
     int i;
-    char* trg_ptr = --target;
-    const char* src_ptr = source;
+    volatile char* trg_ptr = --target;
+    volatile const char* src_ptr = source;
     for (i = 0; i <= strlen(source); i++)
     {
         if (*trg_ptr != *src_ptr)
