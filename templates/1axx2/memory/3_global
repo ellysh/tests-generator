@@ -1,11 +1,12 @@
 GLOBAL_VARIABLE="""
-int* target;"""
+int data[5] = {0, 1, 2, 3, 4};"""
 
 OBJECT_VARIABLE="""
-"""
+    int* target = &data;"""
 
 OBJECT_ALLOCATION="""
-    target = (int*)malloc(5 * sizeof(int));"""
+"""
 
 OBJECT_FREE="""
-    free(target);"""
+"""
+
