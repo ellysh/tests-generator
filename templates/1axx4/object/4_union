@@ -1,14 +1,14 @@
 TYPES_DEFINITION="""
 typedef union {
     int a;
-    char b[10];
+    char b;
 } Test1;
 
 typedef union {
-    char a[10];
-    char b[5];
+    int a;
+    char b;
 } Test2;"""
 
 LOCAL_VARIABLE="""
-    Test2 source = {.a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}};"""
+    Test2 source = {.a = 5};"""
 

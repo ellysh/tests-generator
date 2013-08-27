@@ -1,13 +1,6 @@
 OBJECT_ACCESS="""
-    memcpy(&target->b, &source.a, sizeof(target->b));
-    int i;
-    volatile char* trg_ptr = &target->b;
-    volatile char* src_ptr = &source.a;
-    for (i = 0; i < sizeof(source.a); i++)
-    {
-        if (*trg_ptr != *src_ptr)
-            return 1;
-        trg_ptr++;
-        src_ptr++;
-    }"""
+    volatile int* trg_ptr = &target->a;
+    volatile int* src_ptr = &source.a;
 
+    if (*trg_ptr != *src_ptr)
+        return 1;"""

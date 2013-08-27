@@ -1,5 +1,5 @@
 GLOBAL_VARIABLE="""
-int data = 5;"""
+char data = 5;"""
 
 OBJECT_VARIABLE="""
     Test1* target = &data;"""
