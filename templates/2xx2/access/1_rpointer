@@ -1,0 +1,11 @@
+OBJECT_ACCESS="""
+    int i;
+    volatile int* trg_ptr = target;
+    for (i = 0; i < 5; i++)
+    {
+        if (*trg_ptr != 5)
+            return 1;
+
+        trg_ptr++;
+    }"""
+

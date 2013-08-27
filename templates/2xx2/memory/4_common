@@ -1,0 +1,12 @@
+GLOBAL_VARIABLE="""
+int data[5];"""
+
+OBJECT_VARIABLE="""
+    int* target = &data;"""
+
+OBJECT_ALLOCATION="""
+"""
+
+OBJECT_FREE="""
+"""
+
