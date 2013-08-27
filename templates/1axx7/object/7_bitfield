@@ -3,15 +3,14 @@ TYPES_DEFINITION="""
 #pragma pack(1)
 
 typedef struct {
-    int a : 4;
+    int a;
     int b : 4;
 } Test1;
 
 typedef struct {
     int a : 4;
-    int b : 6;
 } Test2;"""
 
 LOCAL_VARIABLE="""
-    Test2 source = {.a = 15, .b = 63};"""
+    Test2 source = {.a = 15};"""
 
