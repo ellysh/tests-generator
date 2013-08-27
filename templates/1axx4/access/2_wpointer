@@ -1,7 +1,7 @@
 OBJECT_ACCESS="""
     int i;
-    volatile short* trg_ptr = &target->a;
-    volatile short* src_ptr = &source.a;
+    volatile char* trg_ptr = &target->b;
+    volatile char* src_ptr = &source.a;
     for (i = 0; i < sizeof(source.a); i++)
     {
         *trg_ptr = *src_ptr;
