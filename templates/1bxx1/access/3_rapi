@@ -1,4 +1,4 @@
 OBJECT_ACCESS="""
-    memcpy(target, source, sizeof(*target));
+    memcpy(target, source, sizeof(2));
     memcmp(--target, source, sizeof(source));"""
 
