@@ -1,0 +1,12 @@
+GLOBAL_VARIABLE="""
+Test1 data;"""
+
+OBJECT_VARIABLE="""
+    Test1* target = &data;"""
+
+OBJECT_ALLOCATION="""
+"""
+
+OBJECT_FREE="""
+"""
+
