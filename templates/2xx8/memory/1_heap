@@ -1,0 +1,12 @@
+GLOBAL_VARIABLE="""
+"""
+
+OBJECT_VARIABLE="""
+    char* target;"""
+
+OBJECT_ALLOCATION="""
+    target = (char*)malloc(5);"""
+
+OBJECT_FREE="""
+    free(target);"""
+
