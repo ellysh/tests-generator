@@ -1,6 +1,0 @@
-OBJECT_VARIABLE="""
-    int* target;"""
-
-OBJECT_ALLOCATION="""
-    target = (int*)malloc(sizeof(int));"""
-

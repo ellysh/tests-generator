@@ -1,3 +1,0 @@
-OBJECT_ACCESS="""
-    memset(target, 0, sizeof(*target));"""
-

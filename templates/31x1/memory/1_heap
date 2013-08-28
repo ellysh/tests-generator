@@ -1,3 +1,0 @@
-OBJECT_FREE="""
-    free(target);"""
-

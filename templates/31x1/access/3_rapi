@@ -1,3 +1,0 @@
-OBJECT_ACCESS="""
-    printf("target = %d", *target);"""
-

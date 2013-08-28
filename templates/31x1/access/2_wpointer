@@ -1,3 +1,0 @@
-OBJECT_ACCESS="""
-    *target = 5;"""
-
