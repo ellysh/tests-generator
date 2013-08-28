@@ -1,0 +1,5 @@
+TYPES_DEFINITION="""
+typedef struct {
+    int a : 4;
+} Test1;"""
+
