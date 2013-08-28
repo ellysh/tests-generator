@@ -1,0 +1,11 @@
+TYPES_DEFINITION="""
+typedef struct {
+    int a;
+} Test1;"""
+
+OBJECT_VARIABLE="""
+    Test1* target;"""
+
+OBJECT_ALLOCATION="""
+    target = (Test1*)malloc(sizeof(Test1));"""
+
