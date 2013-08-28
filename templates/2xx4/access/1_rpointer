@@ -1,0 +1,4 @@
+OBJECT_ACCESS="""
+    if ( target->a == 5 )
+        return 1;"""
+
