@@ -1,11 +1,8 @@
 OBJECT_ACCESS="""
-    int i;
     volatile int* trg_ptr = --target;
-    volatile int* src_ptr = &source;
+    int i;
     for (i = 0; i < 10; i++)
     {
-        *trg_ptr = *src_ptr;
-        trg_ptr++;
-        src_ptr++;
+        trg_ptr[i] = source[i];
     }"""
 
