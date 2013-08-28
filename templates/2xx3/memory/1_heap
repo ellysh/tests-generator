@@ -1,0 +1,12 @@
+GLOBAL_VARIABLE="""
+"""
+
+OBJECT_VARIABLE="""
+    Test1* target;"""
+
+OBJECT_ALLOCATION="""
+    target = (Test1*)malloc(sizeof(Test1));"""
+
+OBJECT_FREE="""
+    free(target);"""
+
