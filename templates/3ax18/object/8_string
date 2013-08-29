@@ -1,0 +1,6 @@
+OBJECT_VARIABLE="""
+    char* target;"""
+
+OBJECT_ALLOCATION="""
+    target = (char*)malloc(5);"""
+
