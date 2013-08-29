@@ -1,6 +1,7 @@
 TYPES_DEFINITION="""
 typedef union {
     int a;
+    char b;
 } Test1;"""
 
 GLOBAL_VARIABLE="""
