@@ -1,0 +1,7 @@
+OBJECT_ACCESS="""
+    int i;
+    for (i = 0; i < 5; i++)
+    {
+        target[i] = 5;
+    }"""
+
