@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+@>TYPES_DEFINITION
+
+int main( int argc, char* argv[] )
+{
+@>OBJECT_VARIABLE
+
+@>OBJECT_ALLOCATION
+
+@>OBJECT_FREE
+
+@>OBJECT_ACCESS
+
+    return 0;
+}
