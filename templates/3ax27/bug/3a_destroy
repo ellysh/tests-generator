@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+@>TYPES_DEFINITION
+
+@>GLOBAL_VARIABLE
+
+@>GET_FUNCTION
+
+int main( int argc, char* argv[] )
+{
+@>OBJECT_ACCESS
+
+    return 0;
+}
