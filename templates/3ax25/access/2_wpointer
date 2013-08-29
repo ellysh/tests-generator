@@ -1,0 +1,4 @@
+OBJECT_ACCESS="""
+    Test1 source = {.a = 5};
+    *target = source;"""
+

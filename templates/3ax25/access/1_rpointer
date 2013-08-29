@@ -1,0 +1,6 @@
+OBJECT_ACCESS="""
+    int* trg_ptr = target;
+
+    if ( *trg_ptr == 5 )
+        return 1;"""
+
