@@ -1,0 +1,9 @@
+GLOBAL_VARIABLE="""
+int *target;"""
+
+GET_FUNCTION="""
+__attribute__((noinline))
+void GetFunction() {
+    int local;
+    target = &local;
+}"""
