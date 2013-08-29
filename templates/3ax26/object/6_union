@@ -1,0 +1,14 @@
+TYPES_DEFINITION="""
+typedef union {
+    int a;
+} Test1;"""
+
+GLOBAL_VARIABLE="""
+Test1 *target;"""
+
+GET_FUNCTION="""
+__attribute__((noinline))
+void GetFunction() {
+    Test1 local = {.a = 5};
+    target = &local;
+}"""
