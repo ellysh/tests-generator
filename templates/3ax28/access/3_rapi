@@ -1,0 +1,3 @@
+OBJECT_ACCESS="""
+    memchr(target, 'a', 5);"""
+
