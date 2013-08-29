@@ -1,5 +1,5 @@
 TYPES_DEFINITION="""
-typedef struct {
+typedef union {
     int a;
     char b;
 } Test1;"""
