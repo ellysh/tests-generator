@@ -4,6 +4,6 @@ char *target;"""
 GET_FUNCTION="""
 __attribute__((noinline))
 void GetFunction() {
-    char local[5] = {'t', 'e', 's', 't' ,'\0'};
+    char local[5] = {'t', 'e', 's', 't', 0};
     target = &local[0];
 }"""
