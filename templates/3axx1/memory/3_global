@@ -6,3 +6,4 @@ OBJECT_VARIABLE="""
         fprintf(stderr, "%s", error);
         exit(1);
     }"""
+
