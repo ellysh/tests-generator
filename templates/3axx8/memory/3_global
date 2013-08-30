@@ -1,0 +1,9 @@
+OBJECT_VARIABLE="""
+    char* target = dlsym(lib_handle, "gString");
+
+    if ((error = dlerror()) != NULL)
+    {
+        fprintf(stderr, "%s", error);
+        exit(1);
+    }"""
+

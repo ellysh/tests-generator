@@ -1,0 +1,8 @@
+OBJECT_ACCESS="""
+    int i;
+    volatile char* trg_ptr = target;
+    for (i = 0; i < 5; i++)
+    {
+        *trg_ptr = 'a';
+        trg_ptr++;
+    }"""
