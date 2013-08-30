@@ -1,0 +1,4 @@
+OBJECT_ACCESS="""
+    UnionTest source = {.a = 5};
+    *target = source;"""
+
