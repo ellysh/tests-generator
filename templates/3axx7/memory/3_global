@@ -1,0 +1,8 @@
+OBJECT_VARIABLE="""
+    BitfieldTest* target = dlsym(lib_handle, "gBitfield");
+
+    if ((error = dlerror()) != NULL)
+    {
+        fprintf(stderr, "%s", error);
+        exit(1);
+    }"""
