@@ -1,0 +1,4 @@
+OBJECT_ACCESS="""
+    StructTest source = {.a = 5};
+    *target = source;"""
+
