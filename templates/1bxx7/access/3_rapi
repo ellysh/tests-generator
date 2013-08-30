@@ -1,0 +1,4 @@
+OBJECT_ACCESS="""
+    target--;
+    printf("target = %d", target->a);"""
+
