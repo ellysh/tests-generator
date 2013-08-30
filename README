@@ -1,4 +1,4 @@
-Tests Generator 0.1 version
+Tests Generator 0.2 version
 ===========================
 
 1. INTRODUCTION
@@ -6,3 +6,31 @@ Tests Generator 0.1 version
 
 Tests Generator is a set of scripts to generate tests according to specified
 templates and parameters.
+
+2. USAGE
+--------
+
+This is list of available scripts to generate tests from templates:
+
+    autogen-all.sh - this scripts creates tests from all avaliable templates
+in the `templates` directory
+
+    autogen.sh - this script creates test from the template in directory
+with the specified name (for example with name `1axx1`).
+
+The template directory consist from four sub-directories
+
+    1. access
+    2. bug
+    3. memory
+    4. object
+
+Skeleton of the test's template is consisted in the files from `bug` subdirectory.
+You can see macros with `@>` symbols prefix in the files. These macros will be
+substituted by variables that will be found in the `access`, `memory` and `object`
+ subdirectories.
+
+You can rename all these subdirectories. Fix it in the `autogen.sh` script.
+
+Format of the macros names matches to Python variables naming rules and
+the `@>` prefix is also needed.

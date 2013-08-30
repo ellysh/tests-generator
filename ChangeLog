@@ -1,2 +1,6 @@
+* tests-generator  0.2
+    - Implement templates for the memory corruption tests
+    - Generates tests names automatically with the identifier code
+
 * tests-generator  0.1
     - Base scripts implementation
