@@ -1,0 +1,3 @@
+OBJECT_ACCESS="""
+    memset(&target->a, 0xAA, sizeof(int));"""
+

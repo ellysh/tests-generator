@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <dlfcn.h>
+
+#include "common.h"
+
+int main( int argc, char* argv[] )
+{
+   void *lib_handle;
+   char *error;
+
+   lib_handle = dlopen("./libcommon.so", RTLD_LAZY);
+   if (!lib_handle)
+   {
+      fprintf(stderr, "%s", dlerror());
+      exit(1);
+   }
+
+@>OBJECT_VARIABLE
+
+    dlclose(lib_handle);
+
+@>OBJECT_ACCESS
+
+    return 0;
+}
