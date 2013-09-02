@@ -9,5 +9,5 @@ OBJECT_ALLOCATION="""
     *target = 5;"""
 
 OBJECT_FREE="""
-    free(target);"""
+    free(++target);"""
 

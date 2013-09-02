@@ -8,5 +8,5 @@ OBJECT_ALLOCATION="""
     target = (char*)malloc(5);"""
 
 OBJECT_FREE="""
-    free(target);"""
+    free(++target);"""
 

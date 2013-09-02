@@ -8,5 +8,5 @@ OBJECT_ALLOCATION="""
     target = (Test1*)malloc(sizeof(Test1));"""
 
 OBJECT_FREE="""
-    free(target);"""
+    free(++target);"""
 
