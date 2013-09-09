@@ -2,7 +2,7 @@ GLOBAL_VARIABLE="""
 """
 
 OBJECT_VARIABLE="""
-    int data[5];
+    int data[10];
     int* target = &data[0];"""
 
 OBJECT_ALLOCATION="""

@@ -5,7 +5,7 @@ OBJECT_VARIABLE="""
     int* target;"""
 
 OBJECT_ALLOCATION="""
-    target = (int*)malloc(2);
+    target = (int*)malloc(4);
     *target = 5;"""
 
 OBJECT_FREE="""
