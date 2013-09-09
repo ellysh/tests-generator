@@ -1,6 +1,6 @@
 TYPES_DEFINITION="""
 typedef struct {
-    char a;
+    char a[10];
 } Test1;
 
 typedef struct {
