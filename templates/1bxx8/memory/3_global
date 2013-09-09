@@ -1,5 +1,5 @@
 GLOBAL_VARIABLE="""
-char data[5] = {'a', 'b', 'c', 'd', 0};"""
+char data[12] = {'t', 'e', 's', 't', ' ', 's', 't', 'r', 'i', 'n', 'g', 0};"""
 
 OBJECT_VARIABLE="""
     char* target = &data;"""

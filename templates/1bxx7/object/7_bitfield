@@ -4,7 +4,7 @@ TYPES_DEFINITION="""
 
 typedef struct {
     int a : 4;
-    int b : 4;
+    int b : 6;
 } Test1;
 
 typedef struct {
